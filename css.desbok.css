@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+html{
+    font-size: 10PX;
+}
+
+body{
+    background-color: hsl(257, 40%, 49%);
+}
+
+#fondo{
+    position: absolute;
+  
+}
+
+.encabezado{
+    display: flex;
+    width: 100vw;
+    height: 29vh;
+    align-items: center;
+}
+
+.encabezado-logo{
+    z-index: 5;
+    margin-left: 5vw;
+    margin-bottom: 3%;
+    height: 8vh;
+}
+
+.principal{
+    display: flex;
+    width: 90vw;
+    height: 95vh;
+    margin-left: 5vw;
+    color:rgb(255, 255, 255);
+}
+
+.principal-izq-imagen{
+    height: 82%;
+}
+
+.principal-der{
+    margin-left: 4%;
+}
+
+.principal-der h1{
+    margin-top: 6vh;
+    font-size: 4.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.principal-der p{
+    margin-top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75rem;
+}
+
+.principal-der button{
+    margin-top: 5%;
+    height: 9.3vh;
+    width: 15vw;
+    font-size: 2rem;
+    color:hsl(257, 40%, 49%);
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    background-color: rgb(255, 247, 247);
+    border: solid ;
+    box-shadow: .4vw 1.1vh rgba(0, 0, 0, 0.15);
+}
+
+#logo1{
+    width: 20px;
+
+    height: 20px;
+}
+
+
+
