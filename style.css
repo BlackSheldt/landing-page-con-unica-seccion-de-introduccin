@@ -1,0 +1,20 @@
+:root{
+    --Violet: hsl(257, 40%, 49%);
+}
+
+html{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--Violet);
+    font-size: 62.5%;
+}
+
+#fondo-img{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
